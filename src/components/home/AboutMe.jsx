@@ -2,6 +2,7 @@ import React from "react";
 import Pdf from "../../editable-stuff/resume.pdf";
 
 import axios from "axios";
+import Typist from "react-typist";
 
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
