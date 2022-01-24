@@ -57,7 +57,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Current Projects",
   gitHubUsername: "BassettUNC",
   reposLength: 4,
   specificRepos: [],
@@ -123,19 +123,29 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Past Projects",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Reeemind', // Here Add Company Name
+      companylogo: require('../assets/img/e2.png'),
+      date: 'Developed a tier based reminder webapp for those who have too much to do and not enough time to do it (aka... the typical college student).',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Porch',
+      companylogo: require('../assets/img/e0.png'),
+      date: 'Implemented an inventory tracking system for the local food bank, Porch, in collaboration with the UNC club, CS+Social Good.',
     },
+    {
+      role: 'Personal Website',
+      companylogo: require('../assets/img/e3.png'),
+      date: 'Worked with author Annette Saunooke Clapsaddle to create a website for her debut book: Even as We Breathe.'
+    },
+    {
+      role: 'Beeglobal Studio and Gallery',
+      companylogo: require('../assets/img/e1.png'),
+      date: 'Designed a ecommerce platform for local artists to sell their work worldwide.',
+    }
   ]
 }
 
