@@ -1,5 +1,8 @@
 
 
+## To Deploy
+Visit: https://github.com/gitname/react-gh-pages
+
 ## Technology Stack 🛠️
 
 Dependencies defined in package.json:
